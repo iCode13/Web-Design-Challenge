@@ -1,29 +1,29 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
-        <title>Weather Data Visualizations for Cities at Varying Latitudes</title>
-    </head>
-    <body>
+    <title>Data Visualisations for Weather vs Latitude</title>
+  </head>
+  <body>
     
-    <!--Creating the Homepage button-->
+      <!--Creating the Homepage button-->
       <div class="row">
         <div class="mainpage col-6">
-        <a class="atext" href="index.html">Lattitude</p>
-        </p>Latitude Analysis Dashboard with Attitude</p>
-    </div>
+          <a class="atext" href="index.html">Lattitude</a>
+        </div>
 
-    <!--Creating the dropdown menubuttons-->
-    <div class="d-flex flex-row-reverse mainpage col-6">
-        <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!--Creating the dropdown menubuttons-->
+        <div class="d-flex flex-row-reverse mainpage col-6">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -44,7 +44,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="data.html">Data</a>
-                </li>               
+                </li>
+                               
+
               </ul>
             </div>
           </nav>     
@@ -59,7 +61,7 @@
           <div class="col-lg-8 bodyformat">
             
             <h1>Summary: Weather vs Latitude</h1><hr>
-            <img style="float: left;" src="Temperature_vs_Latitude.png" alt="Temperature_vs_Latitude" width="250">
+            <img style="float: left;" src="visualizatins/Temperature_vs_Latitude.png" alt="Temperature vs Latitude" width="280">
             <p>The aim of the Lattitude project was to analyze how weather varies depending on a city's geographic location relative to the Equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities from around the world.</p>
             <p>After assembling the dataset, we used Matplotlib to plot various measures of the weather vs. the city latitude. We looked at the following aspects of weather: maximum temperature, humidity, cloudiness, and wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any observed trends and correlations.</p>
 
@@ -69,23 +71,24 @@
             <h1>Visualisations</h1><hr>
             <div class="row">
               <div class="col-6 bodyformat">
-                <a href="max_temp.html"><img class="img-fluid thumbnail" src="Temperature_vs_Latitude.png" alt="Temperature_vs_Latitude"></a>
+                <a href="max_temp.html"><img class="image" src="visualizatins/Temperature_vs_Latitude.png" alt="Maximum Temperature vs Latitude"></a>
+                <h4>Maximum Temperature</h4>
               </div>
               <div class="col-6 bodyformat">
-                <a href="humidity.html"><img class="img-fluid thumbnail" src="Humidity_vs_Latitude.png" alt="Humidity_vs_Latitude"></a>
+                <a href="humidity.html"><img class="image" src="visualizatins/Humidity_vs_Latitude.png" alt='Humidity vs Latitude'></a>
+                <h4>Humidity</h4>
+              </div>
+              <div class="col-6 bodyformat">
+                <a href="cloudiness.html"><img class="image" src="visualizatins/Cloudiness_vs_Latitude.png" alt="Cloudiness vs Latitude "></a>
+                <h4>Cloudiness</h4>
+              </div>
+              <div class="col-6 bodyformat">
+                <a href="wind_speed.html"><img class="image" src = "visualizatins/WindSpeed_vs_Latitude.png" alt="Wind Speed vs Latitude"></a>                
+                <h4>Wind Speed</h4>
+              </div>
             </div>
-            <div class="row">
-                </div><div class="col-6 bodyformat">
-                  <a href="cloudiness.html"><img class="img-fluid thumbnail" src="Cloudiness_vs_Latitude.png" alt="Cloudiness_vs_Latitude"></a>
-                </div>
-                <div class="col-6 bodyformat">
-                  <a href="wind_speed.html">
-                    <img class="img-fluid thumbnail" src = "WindSpeed_vs_Latitude.png" alt="WindSpeed_vs_Latitude"></a>
-                  </a>  
-                </div>
-            </div>
-        </div>
-    </div>
+          </div>
+
         </div>
       </div>
       <!--Start of Footer-->
@@ -93,8 +96,6 @@
       
       <div class="row">
         <div class="footer col-12">
-          <a>Copyright &#169; Amy Banerji, UT Data Analytics and Visualization Bootcamp, 2020</a>
+          <a>Copyright &#64; Amy Banerji, UT Data Analytics & Visualization Bootcamp, 2020</a>
         </div>
       </div>
-  </body>
-  </html>
