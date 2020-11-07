@@ -1,7 +1,7 @@
 # Web-Design-Challenge <br/>
 
 
-### Latitude - A Web Visualization Dashboard 
+### Lattitude - A Web Visualization Dashboard 
 #### A dashboard using HTML, CSS and Bootstrap showing off the weather analysis of more than 500 cities. <br/>
 
 
