@@ -10,14 +10,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color:#d3c0d6 ;
     text-align: left;
     display: block;
     padding: 14px;
     margin: 0px 0px 0px 40px;
   }
   .atext:hover{
-    background-color: purple;
+    background-color: rgb(134, 90, 134);
     color: wheat;
   
   }
