@@ -59,12 +59,18 @@
   p{
     color:darkgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
   }
   
   
   img {
     max-width: 125%;
   }
+
+  img2 {
+    max-width: 200%;
+  }
+  
   
   #imgsel{
     border: rgb(82, 151, 147) 2px solid;
