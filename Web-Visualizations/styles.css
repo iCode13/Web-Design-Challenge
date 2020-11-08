@@ -38,11 +38,11 @@
   
   .bodyformat{
     z-index: 1;
-    background-color: rgb(134, 90, 134);
+    background-color: #d3c0d6;
   }
   
   img{
-    max-width: 100%;
+    max-width: 125%;
   }
   
   .image:hover{
@@ -53,7 +53,7 @@
     color: rgb(82, 151, 147);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 25px;
   }
   
   p{
