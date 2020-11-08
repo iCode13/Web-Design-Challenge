@@ -11,42 +11,75 @@
     <link rel="stylesheet" href="styles.css">
 
     <title>Weather Data</title>
-  </head>
-  <body>
-    
-      <!--Creating the Homepage button-->
-      <div class="row">
-        <div class="mainpage col-6">
-          <a class="atext" href="index.html">Lattitude</a>
-        </div>
+    <style>
+      .dropbtn {
+        background-color: #FFFFFF;
+        color: blue;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: ##FFFFFF;}
+      </style>
+</head>
+<body>
+  
+    <!--Creating the Homepage button-->
+    <div class="row">
+      <div class="mainpage col-6">
+        <a class="atext" href="index.html">Lattitude</a>
+        <br> Latitude Analysis Dashboard with Attitude
+      </div>
 
-        <!--Creating the dropdown menubuttons-->
-        
-        <div class="d-flex flex-row-reverse mainpage col-6">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="max_temp.html">Maximum Temperature</a>
-                    <a class="dropdown-item" href="humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="comparison.html">Comparison</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="data.html">Data</a>
-                </li>
+      <!--Creating the dropdown menubuttons-->
+      <div class="d-flex flex-row-reverse mainpage col-6">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="dropdown">
+              <button class="dropbtn">Plots</button>
+              <div class="dropdown-content">
+                <a href="max_temp.html">Maximum Temperature</a>
+                <a href="humidity.html">Humidity</a>
+                <a href="cloudiness.html">Cloudiness</a>
+                <a href="wind_speed.html">Wind Speed</a>
+              </div>
+            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>                
+              </li>
 
               </ul>
             </div>
@@ -61,7 +94,7 @@
     <div class="column col-12 bodyformat">
         <h1>Raw Data</h1>
         <hr>
-        <p>The following dataset was utilised in this analyics project</p>
+        <p>The following dataset was utilised in this analysis</p>
         <br>
 
         <!--Inserting the table-->
