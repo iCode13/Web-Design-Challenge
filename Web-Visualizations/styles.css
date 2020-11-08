@@ -161,3 +161,7 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: white;}
+
+  .Nav ul {
+    list-style:none;
+}
