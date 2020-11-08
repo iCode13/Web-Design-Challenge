@@ -4250,6 +4250,7 @@
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    list-style: none;
   }
   
   .nav-link:hover, .nav-link:focus {
