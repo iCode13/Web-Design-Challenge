@@ -10,7 +10,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold;
-    color:#d3c0d6 ;
+    color: #FFFFFF;
     text-align: left;
     display: block;
     padding: 14px;
@@ -63,7 +63,7 @@
   
   
   img {
-    max-width: 100%;
+    max-width: 125%;
   }
   
   #imgsel{
