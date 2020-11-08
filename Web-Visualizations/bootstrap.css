@@ -86,6 +86,11 @@
    margin-bottom: 0.5rem;
  }
  
+ li {
+   float: left;
+   list-style-type:none;
+ }
+
  p {
    margin-top: 0;
    margin-bottom: 1rem;
@@ -4250,7 +4255,7 @@
   .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    list-style: none;
+    list-style-type: none;
   }
   
   .nav-link:hover, .nav-link:focus {
