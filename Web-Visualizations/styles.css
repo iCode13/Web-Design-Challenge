@@ -1,5 +1,5 @@
 .mainpage{
-    background-color: #FFFFFF;
+    background-color: white;
     z-index: 2;
   
   }
@@ -10,7 +10,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: white;
     text-align: left;
     display: block;
     padding: 14px;
@@ -38,7 +38,7 @@
   
   .bodyformat{
     z-index: 1;
-    background-color: #FFFFFF;
+    background-color: white;
   }
   
   img{
@@ -78,7 +78,7 @@
   p{
     color: darkgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   
@@ -129,7 +129,7 @@
   }
 
   .dropbtn {
-    background-color: #FFFFFF;
+    background-color: white;
     color: #007bff;
     padding: 16px;
     font-size: 16px;
@@ -157,8 +157,8 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #FFFFFF;}
+  .dropdown-content a:hover {background-color: white;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #FFFFFF;}
+  .dropdown:hover .dropbtn {background-color: white;}
